@@ -1,6 +1,6 @@
 class Livro:
     #construtor
-    def __init__(self,Titulo:str,Autor:str,NumeroDePaginas:int,preco:int)->None:
+    def __init__(self,Titulo:str,Autor:str,NumeroDePaginas:int,preco:int)-> None:
         self.Titulo = Titulo
         self.Autor = Autor
         self.NumeroDePaginas = NumeroDePaginas

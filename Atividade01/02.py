@@ -3,10 +3,14 @@ class Endereco:
     def __init__(self,logradouro:str,numero:int) -> None:
         self.logradouro= logradouro
         self.numero= numero
+        
     #def _exibir_endereco(self) -> str:
         #return f"\nLogradouro: {self.logradouro} \nNumero:{self.numero}"
+
+        #Um toString em python
     def __str__(self) -> str:
         return f"\nLogradouro: {self.logradouro} \nNumero:{self.numero}"
+    
 class Aluno:    
     #construtor
     def __init__(self,nome:str,idade:int,endereco: Endereco) -> None:
