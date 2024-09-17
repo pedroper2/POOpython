@@ -1,2 +1,2 @@
 # POOpython
-Orientação a Objeto
+Orientação a objeto sem estruturas.
